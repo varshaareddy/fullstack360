@@ -1,0 +1,64 @@
+#navybar{
+    display: inline-flex;
+}
+.list{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 9px;
+    margin-left: 40px;
+    font-size: large;
+}
+.listcontent{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 200px;
+    box-shadow: 5px 10px 15px 5px rgb(0, 0,0, 0.5);
+    z-index: -1;
+}
+.Men:hover .listcontent{
+    display: block;
+}
+
+.Womenslist{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left:60px;
+ margin-top: 9px;
+    font-size: large;
+}
+.listcont{
+    display: none;
+    position: absolute;
+    background-color: thistle;
+    min-width: 200px;
+    box-shadow: 5px 10px 15px 5px rgb(20, 19, 19);
+    z-index: -1;
+}
+.Women:hover .listcont{
+    display: block;
+}
+
+.home{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left: 90px;
+    margin-top: 9px;
+    font-size: large;
+}
+
+.content{
+    display: none;
+    position:absolute ;
+    background-color: whitesmoke;
+    min-width: 200px;
+    box-shadow: 5px 10px 16px 5px  rgb(7, 7, 7);
+    z-index: -1;
+}
+
+.Home-and-Living:hover .content{
+    display: block;
+}
